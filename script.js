@@ -131,7 +131,7 @@ const CONFIG = {
   ],
 
   gallery: Array.from({ length: 15 }, (_, i) => ({
-    img: `img/photo${i + 1}.jpeg`,
+    img: `img/photo${i + 1}.jpg`,
     label: `Memory #${i + 1}`,
     caption: "Write a short caption here."
   })),
@@ -674,3 +674,4 @@ $("#finalYes").addEventListener("click", () => {
  ********************/
 
 updateProgress();
+
